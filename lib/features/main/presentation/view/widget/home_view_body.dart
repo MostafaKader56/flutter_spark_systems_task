@@ -58,16 +58,14 @@ class HomeViewBody extends StatelessWidget {
                 const SizedBox(height: 10),
                 SizedBox(
                   height: MediaQuery.of(context).size.height / 2,
-                  child: Expanded(
-                    child: Card(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      elevation: 4,
-                      child: OrdersLineChart(
-                        data: state.data,
-                        maxValue: state.max.toDouble() + 5,
-                      ),
+                  child: Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    elevation: 4,
+                    child: OrdersLineChart(
+                      data: state.data,
+                      maxValue: state.max.toDouble() + 5,
                     ),
                   ),
                 ),
