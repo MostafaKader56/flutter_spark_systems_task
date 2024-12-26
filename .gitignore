@@ -1,0 +1,92 @@
+# Flutter-specific
+.flutter/
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+.packages
+build/
+coverage/
+**/generated_plugin_registrant.dart
+flutter_export_environment.sh
+**/doc/api/
+
+# Pub-related
+.pub/
+.pub-cache/
+.pub-preload-cache/
+
+# IDE-related
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+.classpath
+.project
+.settings/
+
+# macOS-specific
+.DS_Store
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/xcuserdata/
+**/macos/flutter_export_environment.sh
+
+# iOS-specific
+**/ios/Flutter/
+**/ios/Pods/
+**/ios/DerivedData/
+**/ios/xcuserdata/
+**/ios/FlutterExportEnvironment.sh
+
+# Android-specific
+.gradle/
+**/android/build/
+**/android/local.properties
+**/android/key.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/**/gradle-wrapper.jar
+
+# Linux-specific
+**/linux/flutter/ephemeral/
+**/linux/flutter/generated_plugin_registrant.*
+
+# Windows-specific
+**/windows/flutter/ephemeral/
+**/windows/flutter/generated_plugin_registrant.*
+
+# Web-related
+**/web/.dart_tool/
+**/web/build/
+
+# Miscellaneous
+*.log
+*.lock
+*.tmp
+*.class
+*.pyc
+*.swo
+*.swn
+.history
+.atom/
+.buildlog/
+.svn/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swm
+*.swx
+*.err
+
+# Symbol files
+app.*.symbols
+
+# Exceptions to above rules
+!.vscode/settings.json
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
